@@ -122,7 +122,7 @@ return [
 
     'ui'                 => [
         'code_theme'     => 'light', // or: light
-        'fav'            => asset('favicon.svg'),     // eg: fav.png
+        'fav'            => 'favicon.svg',     // eg: fav.png
         'fa_v4_shims'    => true, // Add FontAwesome v4 shims prevent BC break
         'show_side_bar'  => true,
         'colors'         => [
@@ -148,12 +148,12 @@ return [
     'seo'                 => [
         'author'          => 'Dinesh Uprety',
         'description'     => 'Complete reference for accessing Laranepal articles with filters by type, category, and author.',
-        'keywords'        => 'laravel, documentation, laranepal, articles, reference',
+        'keywords'        => 'laravel, laranepal, articles, documentation, reference',
         'og'              => [
             'title'       => 'Laranepal Articles API',
             'type'        => 'article',
-            'url'         => 'https://docs.laranepal.com/docs',
-            'image'       => asset('favicon.svg'),
+            'url'         => 'https://docs.laranepal.com',
+            'image'       => 'https://docs.laranepal.com/favicon.svg',
             'description' => 'Complete reference for accessing Laranepal articles with filters by type, category, and author.',
         ]
     ],
