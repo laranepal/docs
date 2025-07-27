@@ -1,2 +1,3 @@
 - ## Get Started
     - [Overview](/{{route}}/{{version}}/overview)
+    - [Categories](/{{route}}/{{version}}/categories)
