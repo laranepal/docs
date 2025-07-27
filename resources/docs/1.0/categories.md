@@ -106,3 +106,7 @@ $categories = $response->json('data'); // Will return first 15 categories by def
 ```
 
 ---
+<p align="center">
+  <a href="overview">⬅️ Previous: Overview</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="./Laranepal_Article_API.md">Next: Article API ➡️</a>
+</p>

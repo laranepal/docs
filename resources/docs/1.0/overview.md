@@ -84,3 +84,9 @@ Ready to get started? Start querying at:
 ```bash
 GET http://laranepal.test/api/v1/categories
 ```
+
+---
+<p align="center">
+  <a href="javascript:void(0)">⬅️ Previous: Overview</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="categories">Next: Categories ➡️</a>
+</p>

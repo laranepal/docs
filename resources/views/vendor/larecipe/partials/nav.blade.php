@@ -4,11 +4,8 @@
     <nav class="flex items-center justify-between text-black bg-navbar shadow-xs h-16">
         <div class="flex items-center flex-no-shrink">
             <a href="{{ url('/') }}" class="flex items-center flex-no-shrink text-black mx-4">
-                @include("larecipe::partials.logo")
-
-                <p class="inline-block font-semibold mx-1 text-grey-dark">
-                    {{ config('app.name') }}
-                </p>
+                <img class="h-12" src="https://laranepal.com/images/source=public,format=webp,quality=100,width=300,height=300/laranepal.png"
+                                 alt="Lara Nepal"/>
             </a>
 
             <div class="switch">
@@ -27,7 +24,7 @@
                 </larecipe-button>
             @endif
 
-            <larecipe-button tag="a" href="https://github.com/saleem-hadad/larecipe" target="__blank" type="black" class="mx-2 px-4">
+            <larecipe-button tag="a" href="https://github.com/laranepal/docs" target="__blank" type="black" class="mx-2 px-4">
                 <i class="fab fa-github"></i>
             </larecipe-button>
 
