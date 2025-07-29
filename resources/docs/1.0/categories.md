@@ -14,7 +14,7 @@ Use this to display all topics (e.g., Laravel, Vue.js, PHP, Tailwind) grouped as
 
 **Method:** `GET`  
 **Endpoint:** `/categories`  
-**Base URL:** `http://laranepal.com/api/v1/categories`  
+**Base URL:** `https://laranepal.com/api/v1/categories`  
 **Headers:**
 
 ```http
@@ -100,7 +100,7 @@ GET /api/v1/categories?per_page=5&sort_field=name&sort_order=asc
 ```php
 use Illuminate\Support\Facades\Http;
 
-$response = Http::acceptJson()->get('http://laranepal.com/api/v1/categories');
+$response = Http::acceptJson()->get('https://laranepal.com/api/v1/categories');
 
 $categories = $response->json('data'); // Will return first 15 categories by default
 ```
@@ -108,5 +108,5 @@ $categories = $response->json('data'); // Will return first 15 categories by def
 ---
 <p align="center">
   <a href="overview">⬅️ Previous: Overview</a> &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="./Laranepal_Article_API.md">Next: Article API ➡️</a>
+  <a href="author">Next: Author API ➡️</a>
 </p>

@@ -1,3 +1,5 @@
 - ## Get Started
     - [Overview](/{{route}}/{{version}}/overview)
     - [Categories](/{{route}}/{{version}}/categories)
+    - [Author](/{{route}}/{{version}}/author)
+    - [Article](/{{route}}/{{version}}/article)

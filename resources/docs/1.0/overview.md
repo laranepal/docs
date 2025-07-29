@@ -82,7 +82,7 @@ View the full API reference [here](./categories).
 Ready to get started? Start querying at:
 
 ```bash
-GET http://laranepal.test/api/v1/categories
+GET https://laranepal.com/api/v1/categories
 ```
 
 ---
