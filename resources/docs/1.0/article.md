@@ -176,5 +176,5 @@ $article = $response->json('data');
 
 <p align="center">
   <a href="author">⬅️ Previous: Author API</a> &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="error">Next: Tag API ➡️</a>
+  <a href="javascript::void(0)">Next:  ➡️</a>
 </p>
