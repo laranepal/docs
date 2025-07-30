@@ -41,13 +41,16 @@ Accept: application/json
 
 ### 🔍 Query Parameters
 
-| Parameter     | Type   | Default     | Description                                              |
-|--------------|--------|-------------|----------------------------------------------------------|
-| `search`     | string | `null`      | Filter articles by title or content.                    |
-| `sort_field` | string | `published_at` | Field to sort by. E.g. `title`, `published_at`.         |
-| `sort_order` | string | `desc`      | Sorting order: `asc` or `desc`.                         |
-| `per_page`   | int    | `15`        | Number of articles per page.                            |
-| `page`       | int    | `1`         | Page number to return.                                  |
+| Parameter     | Type   | Default        | Description                                           |
+|---------------|--------|----------------|-------------------------------------------------------|
+| `search`      | string | `null`         | Filter articles by title or content.                  |
+| `sort_field`  | string | `published_at` | Field to sort by. E.g. `title`, `published_at`.       |
+| `sort_order`  | string | `desc`         | Sorting order: `asc` or `desc`.                       |
+| `author_name` | string | `null`         | Author name: E.g.`laranepal`.                         |
+| `type`        | string | `null`         | Article type: E.g.`tips`,`blog`,`package`,`tutorial`. |
+| `category_name`| string | `null`         | Category: E.g.`php`,`laravel`,`js`.                   |
+| `page`        | int    | `1`            | Page number to return.                                |
+| `per_page`    | int    | `15`           | Number of articles per page.                          |
 
 ---
 
